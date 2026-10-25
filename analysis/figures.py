@@ -1,9 +1,8 @@
 """
-Regenerate every figure of the paper from data/curves.csv into figures/.
+Regenerate every figure from data/curves.csv into figures/.
 
     python analysis/figures.py
 
-File names follow the paper's numbering (a = left panel, b = right panel).
 """
 from pathlib import Path
 
