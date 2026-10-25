@@ -1,5 +1,5 @@
 """
-Regenerate every table of the paper from data/curves.csv into results/.
+Regenerate every table from data/curves.csv into results/.
 
     python analysis/tables.py
 
