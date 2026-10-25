@@ -5,7 +5,7 @@ Each run prints a validation loss every 100K training pairs and a final BLEU.
 Those printed logs are what `logs/` contains and what `data/curves.csv` was
 parsed from.
 
-Examples (the five configurations of the paper):
+Examples (the five configurations):
 
   # 1. d=512, En->Fr                          (exp1, exp4, exp12)
   python run.py --pe rope sinusoidal --seeds 0 1 2 3 4
@@ -49,7 +49,7 @@ def main():
   p.add_argument("--pair", default="fr-en", help="WMT14 config: fr-en or de-en")
   p.add_argument("--tgt", default="fr", help="target language (source is always en)")
   p.add_argument("--cache_dir", default="./mt_cache")
-  p.add_argument("--compile", action="store_true", help="torch.compile (used for the paper runs)")
+  p.add_argument("--compile", action="store_true", help="torch.compile (used for the runs)")
   a = p.parse_args()
 
   for pe_kind in a.pe:
