@@ -38,7 +38,7 @@ def load_pairs(cfg):
   train_rows = list(tqdm(islice(stream, cfg["num_pairs"]),
                            total=cfg["num_pairs"], desc="loading train", unit="pair"))
   # Hold out the first 1% of the shuffled stream as validation (40,400 pairs).
-  # NOTE: this is what produced every result in the paper. Do NOT switch to the
+  # NOTE: this is what produced every result. Do NOT switch to the
   # official WMT14 "validation" split (newstest2013): absolute losses would change.
   k = len(train_rows) // 100
   val_rows, train_rows = train_rows[:k], train_rows[k:]
