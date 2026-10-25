@@ -1,0 +1,7 @@
+configuration,n,delta_bleu,ci95
+"d=512, En-Fr",5,+0.26,"[+0.03, +0.49]"
+"d=256, higher LR",5,+0.34,"[+0.00, +0.68]"
+"d=256, matched LR",5,+0.22,"[-0.16, +0.60]"
+"d=512, modern arch",3,+0.33,"[-0.05, +0.71]"
+"d=512, De-En",3,+0.37,"[+0.22, +0.51]"
+Pooled,21,+0.30 (sd 0.21),p=3.4e-06; RoPE ahead in 18/21 pairs

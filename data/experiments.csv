@@ -1,0 +1,15 @@
+exp_id,configuration,variants,seeds,d_model,heads,pair,architecture,peak_lr,raw_log
+exp1,"d=512, En-Fr","rope,sinusoidal",2,512,8,en->fr,baseline,0.0011,logs/exp1.txt
+exp4,"d=512, En-Fr","rope,sinusoidal","0,1",512,8,en->fr,baseline,0.0011,logs/exp4.txt
+exp12,"d=512, En-Fr","rope,sinusoidal","3,4",512,8,en->fr,baseline,0.0011,logs/exp12.txt
+exp3,"d=256, higher LR","rope,sinusoidal","0,1,2",256,4,en->fr,baseline,0.0016,logs/exp3.txt
+exp2,"d=256, higher LR","rope,sinusoidal","3,4",256,4,en->fr,baseline,0.0016,logs/exp2.txt
+exp7,"d=256, matched LR","rope,sinusoidal",0,256,4,en->fr,baseline,0.0011,logs/exp7.txt
+exp10,"d=256, matched LR","rope,sinusoidal","1,2",256,4,en->fr,baseline,0.0011,logs/exp10.txt
+exp11,"d=256, matched LR","rope,sinusoidal","3,4",256,4,en->fr,baseline,0.0011,logs/exp11.txt
+exp8,"d=512, modern arch","rope,sinusoidal",0,512,8,en->fr,AdamW + cosine + SwiGLU + RMSNorm,0.0011,logs/exp8.txt
+exp9,"d=512, modern arch","rope,sinusoidal","1,2",512,8,en->fr,AdamW + cosine + SwiGLU + RMSNorm,0.0011,logs/exp9.txt
+exp6,"d=512, De-En","rope,sinusoidal","0,1,2",512,8,en->de,baseline,0.0011,logs/exp6.txt
+exp5,"d=512, mechanism","learned,nope","0,1,2",512,8,en->fr,baseline,0.0011,logs/exp5.txt
+exp13,"d=512, mechanism",t5,"0,1,2",512,8,en->fr,baseline,0.0011,logs/exp13.txt
+exp14,"d=256, mechanism",t5,"0,1,2",256,4,en->fr,baseline,0.0016,logs/exp14.txt

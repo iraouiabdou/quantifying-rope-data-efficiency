@@ -1,0 +1,11 @@
+# training (needs a CUDA GPU)
+torch>=2.1
+torchmetrics>=1.0
+tokenizers>=0.15
+datasets>=2.14
+tqdm
+# analysis (CPU only)
+numpy
+pandas
+scipy
+matplotlib

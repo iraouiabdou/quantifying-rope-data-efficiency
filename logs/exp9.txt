@@ -1,0 +1,393 @@
+modern stuff
+=== sinusoidal seed 1 === GPU before: 0.00 GB
+dataset: loading /content/drive/MyDrive/mt_cache/ds_1c013c18f2cc.pkl
+dataset: loaded in 20s
+Vocab 32000 | train 3837976 val 38948
+Parameters: 58,867,712
+Epoch 00:   1%|▏         | 199/14993 [04:03<2:11:09,  1.88it/s, avg=7.910, gn=1.13, lr=1.53e-04][50,200 pairs] val loss  7.379 | val ppl  1601.38
+Epoch 00:   3%|▎         | 394/14993 [04:17<1:38:57,  2.46it/s, avg=6.867, gn=0.72, lr=3.00e-04][100,120 pairs] val loss  6.469 | val ppl   645.13
+Epoch 00:   4%|▍         | 587/14993 [04:30<1:35:34,  2.51it/s, avg=6.137, gn=0.96, lr=4.47e-04][150,040 pairs] val loss  5.749 | val ppl   313.83
+Epoch 00:   5%|▌         | 785/14993 [04:44<1:29:22,  2.65it/s, avg=5.527, gn=0.99, lr=5.99e-04][200,216 pairs] val loss  5.115 | val ppl   166.44
+Epoch 00:   7%|▋         | 980/14993 [04:58<1:28:55,  2.63it/s, avg=5.111, gn=0.60, lr=7.46e-04][250,136 pairs] val loss  4.685 | val ppl   108.32
+Epoch 00:   8%|▊         | 1176/14993 [05:12<1:09:20,  3.32it/s, avg=4.801, gn=0.73, lr=8.96e-04][300,056 pairs] val loss  4.491 | val ppl    89.23
+Epoch 00:   9%|▉         | 1372/14993 [05:26<1:13:01,  3.11it/s, avg=4.592, gn=0.56, lr=1.04e-03][350,232 pairs] val loss  4.155 | val ppl    63.75
+Epoch 00:  10%|█         | 1566/14993 [05:40<1:10:03,  3.19it/s, avg=4.333, gn=0.56, lr=1.14e-03][400,152 pairs] val loss  3.940 | val ppl    51.42
+Epoch 00:  12%|█▏        | 1762/14993 [05:54<1:11:16,  3.09it/s, avg=4.239, gn=0.68, lr=1.14e-03][450,072 pairs] val loss  3.652 | val ppl    38.54
+Epoch 00:  13%|█▎        | 1958/14993 [06:08<1:11:51,  3.02it/s, avg=4.036, gn=0.57, lr=1.14e-03][500,248 pairs] val loss  3.476 | val ppl    32.33
+Epoch 00:  14%|█▍        | 2153/14993 [06:21<1:14:31,  2.87it/s, avg=3.966, gn=0.43, lr=1.14e-03][550,168 pairs] val loss  3.400 | val ppl    29.96
+Epoch 00:  16%|█▌        | 2347/14993 [06:35<1:20:58,  2.60it/s, avg=3.742, gn=0.54, lr=1.13e-03][600,088 pairs] val loss  3.370 | val ppl    29.07
+Epoch 00:  17%|█▋        | 2540/14993 [06:48<1:39:25,  2.09it/s, avg=3.738, gn=0.54, lr=1.13e-03][650,008 pairs] val loss  3.253 | val ppl    25.86
+Epoch 00:  18%|█▊        | 2735/14993 [07:02<10:17, 19.85it/s, avg=3.693, gn=0.48, lr=1.12e-03][700,184 pairs] val loss  3.169 | val ppl    23.79
+Epoch 00:  20%|█▉        | 2934/14993 [07:16<52:59,  3.79it/s, avg=3.610, gn=0.36, lr=1.11e-03][750,104 pairs] val loss  3.139 | val ppl    23.07
+Epoch 00:  21%|██        | 3128/14993 [07:29<1:15:33,  2.62it/s, avg=3.567, gn=0.45, lr=1.10e-03][800,024 pairs] val loss  3.086 | val ppl    21.89
+Epoch 00:  22%|██▏       | 3325/14993 [07:42<1:00:12,  3.23it/s, avg=3.575, gn=0.44, lr=1.10e-03][850,200 pairs] val loss  3.022 | val ppl    20.52
+Epoch 00:  23%|██▎       | 3521/14993 [07:56<57:48,  3.31it/s, avg=3.465, gn=0.44, lr=1.09e-03]  [900,120 pairs] val loss  2.979 | val ppl    19.67
+Epoch 00:  25%|██▍       | 3716/14993 [08:09<58:32,  3.21it/s, avg=3.505, gn=0.38, lr=1.07e-03]  [950,040 pairs] val loss  2.907 | val ppl    18.30
+Epoch 00:  26%|██▌       | 3909/14993 [08:23<1:11:43,  2.58it/s, avg=3.481, gn=0.35, lr=1.06e-03][1,000,216 pairs] val loss  2.899 | val ppl    18.15
+Epoch 00:  27%|██▋       | 4105/14993 [08:36<1:06:13,  2.74it/s, avg=3.426, gn=0.43, lr=1.05e-03][1,050,136 pairs] val loss  2.864 | val ppl    17.54
+Epoch 00:  29%|██▊       | 4301/14993 [08:57<51:49,  3.44it/s, avg=3.421, gn=0.37, lr=1.04e-03][1,100,056 pairs] val loss  2.816 | val ppl    16.70
+Epoch 00:  30%|██▉       | 4497/14993 [09:11<49:45,  3.52it/s, avg=3.392, gn=0.27, lr=1.02e-03][1,150,232 pairs] val loss  2.781 | val ppl    16.14
+Epoch 00:  31%|███▏      | 4691/14993 [09:26<59:32,  2.88it/s, avg=3.419, gn=0.30, lr=1.01e-03]  [1,200,152 pairs] val loss  2.773 | val ppl    16.00
+Epoch 00:  33%|███▎      | 4886/14993 [09:39<1:04:41,  2.60it/s, avg=3.306, gn=0.33, lr=9.89e-04][1,250,072 pairs] val loss  2.764 | val ppl    15.87
+Epoch 00:  34%|███▍      | 5082/14993 [09:52<53:16,  3.10it/s, avg=3.326, gn=0.27, lr=9.72e-04]  [1,300,248 pairs] val loss  2.722 | val ppl    15.21
+Epoch 00:  35%|███▌      | 5278/14993 [10:06<45:38,  3.55it/s, avg=3.263, gn=0.31, lr=9.55e-04][1,350,168 pairs] val loss  2.713 | val ppl    15.07
+Epoch 00:  36%|███▋      | 5472/14993 [10:18<48:57,  3.24it/s, avg=3.276, gn=0.28, lr=9.36e-04][1,400,088 pairs] val loss  2.692 | val ppl    14.76
+Epoch 00:  38%|███▊      | 5668/14993 [10:31<50:15,  3.09it/s, avg=3.254, gn=0.34, lr=9.17e-04][1,450,008 pairs] val loss  2.682 | val ppl    14.61
+Epoch 00:  39%|███▉      | 5862/14993 [10:44<57:56,  2.63it/s, avg=3.160, gn=0.53, lr=8.98e-04][1,500,184 pairs] val loss  2.676 | val ppl    14.52
+Epoch 00:  40%|████      | 6058/14993 [10:57<46:26,  3.21it/s, avg=3.147, gn=0.39, lr=8.78e-04][1,550,104 pairs] val loss  2.660 | val ppl    14.30
+Epoch 00:  42%|████▏     | 6255/14993 [11:10<41:02,  3.55it/s, avg=3.196, gn=0.36, lr=8.57e-04][1,600,024 pairs] val loss  2.622 | val ppl    13.76
+Epoch 00:  43%|████▎     | 6451/14993 [11:24<38:13,  3.72it/s, avg=3.207, gn=0.29, lr=8.36e-04][1,650,200 pairs] val loss  2.603 | val ppl    13.50
+Epoch 00:  44%|████▍     | 6645/14993 [11:37<39:01,  3.57it/s, avg=3.177, gn=0.25, lr=8.15e-04][1,700,120 pairs] val loss  2.591 | val ppl    13.35
+Epoch 00:  46%|████▌     | 6840/14993 [11:51<44:34,  3.05it/s, avg=3.187, gn=0.26, lr=7.93e-04][1,750,040 pairs] val loss  2.564 | val ppl    12.99
+Epoch 00:  47%|████▋     | 7035/14993 [12:05<51:03,  2.60it/s, avg=3.094, gn=0.37, lr=7.70e-04][1,800,216 pairs] val loss  2.556 | val ppl    12.89
+Epoch 00:  48%|████▊     | 7231/14993 [12:18<39:54,  3.24it/s, avg=3.201, gn=0.26, lr=7.48e-04][1,850,136 pairs] val loss  2.528 | val ppl    12.53
+Epoch 00:  50%|████▉     | 7428/14993 [12:32<36:02,  3.50it/s, avg=3.127, gn=0.27, lr=7.25e-04][1,900,056 pairs] val loss  2.526 | val ppl    12.50
+Epoch 00:  51%|█████     | 7622/14993 [12:45<33:04,  3.71it/s, avg=3.115, gn=0.31, lr=7.02e-04][1,950,232 pairs] val loss  2.516 | val ppl    12.37
+Epoch 00:  52%|█████▏    | 7817/14993 [12:58<37:29,  3.19it/s, avg=3.137, gn=0.26, lr=6.79e-04][2,000,152 pairs] val loss  2.508 | val ppl    12.28
+Epoch 00:  53%|█████▎    | 8012/14993 [13:11<37:16,  3.12it/s, avg=3.118, gn=0.35, lr=6.55e-04][2,050,072 pairs] val loss  2.481 | val ppl    11.96
+Epoch 00:  55%|█████▍    | 8207/14993 [13:24<43:39,  2.59it/s, avg=3.105, gn=0.23, lr=6.32e-04][2,100,248 pairs] val loss  2.472 | val ppl    11.85
+Epoch 00:  56%|█████▌    | 8404/14993 [13:37<31:09,  3.53it/s, avg=3.108, gn=0.38, lr=6.09e-04][2,150,168 pairs] val loss  2.464 | val ppl    11.76
+Epoch 00:  57%|█████▋    | 8596/14993 [13:51<41:07,  2.59it/s, avg=3.031, gn=0.28, lr=5.85e-04][2,200,088 pairs] val loss  2.456 | val ppl    11.66
+Epoch 00:  59%|█████▊    | 8792/14993 [14:04<32:54,  3.14it/s, avg=3.074, gn=0.23, lr=5.62e-04][2,250,008 pairs] val loss  2.434 | val ppl    11.41
+Epoch 00:  60%|█████▉    | 8990/14993 [14:17<28:40,  3.49it/s, avg=3.026, gn=0.24, lr=5.39e-04][2,300,184 pairs] val loss  2.428 | val ppl    11.33
+Epoch 00:  61%|██████▏   | 9184/14993 [14:31<28:50,  3.36it/s, avg=3.009, gn=0.26, lr=5.16e-04][2,350,104 pairs] val loss  2.422 | val ppl    11.26
+Epoch 00:  63%|██████▎   | 9378/14993 [14:45<36:22,  2.57it/s, avg=2.995, gn=0.30, lr=4.94e-04][2,400,024 pairs] val loss  2.402 | val ppl    11.04
+Epoch 00:  64%|██████▍   | 9574/14993 [14:58<32:49,  2.75it/s, avg=3.002, gn=0.25, lr=4.71e-04][2,450,200 pairs] val loss  2.405 | val ppl    11.07
+Epoch 00:  65%|██████▌   | 9769/14993 [15:11<29:57,  2.91it/s, avg=3.025, gn=0.39, lr=4.49e-04][2,500,120 pairs] val loss  2.380 | val ppl    10.80
+Epoch 00:  66%|██████▋   | 9960/14993 [15:25<03:59, 21.04it/s, avg=2.997, gn=0.36, lr=4.28e-04][2,550,040 pairs] val loss  2.372 | val ppl    10.72
+Epoch 00:  68%|██████▊   | 10161/14993 [15:38<28:50,  2.79it/s, avg=3.003, gn=0.31, lr=4.06e-04][2,600,216 pairs] val loss  2.361 | val ppl    10.60
+Epoch 00:  69%|██████▉   | 10357/14993 [15:53<27:33,  2.80it/s, avg=2.996, gn=0.32, lr=3.85e-04][2,650,136 pairs] val loss  2.349 | val ppl    10.48
+Epoch 00:  70%|███████   | 10551/14993 [16:07<21:20,  3.47it/s, avg=2.961, gn=0.30, lr=3.65e-04][2,700,056 pairs] val loss  2.343 | val ppl    10.41
+Epoch 00:  72%|███████▏  | 10747/14993 [16:20<22:15,  3.18it/s, avg=2.936, gn=0.38, lr=3.45e-04][2,750,232 pairs] val loss  2.334 | val ppl    10.32
+Epoch 00:  73%|███████▎  | 10941/14993 [16:34<24:46,  2.73it/s, avg=2.971, gn=0.24, lr=3.26e-04][2,800,152 pairs] val loss  2.320 | val ppl    10.18
+Epoch 00:  74%|███████▍  | 11136/14993 [16:48<25:25,  2.53it/s, avg=2.919, gn=0.28, lr=3.07e-04][2,850,072 pairs] val loss  2.316 | val ppl    10.13
+Epoch 00:  76%|███████▌  | 11334/14993 [17:02<20:43,  2.94it/s, avg=2.941, gn=0.35, lr=2.89e-04][2,900,248 pairs] val loss  2.302 | val ppl     9.99
+Epoch 00:  77%|███████▋  | 11527/14993 [17:15<22:02,  2.62it/s, avg=2.916, gn=0.26, lr=2.72e-04][2,950,168 pairs] val loss  2.302 | val ppl    10.00
+Epoch 00:  78%|███████▊  | 11723/14993 [17:29<17:10,  3.17it/s, avg=2.945, gn=0.34, lr=2.56e-04][3,000,088 pairs] val loss  2.287 | val ppl     9.84
+Epoch 00:  79%|███████▉  | 11919/14993 [17:43<17:16,  2.97it/s, avg=2.926, gn=0.34, lr=2.40e-04][3,050,008 pairs] val loss  2.281 | val ppl     9.79
+Epoch 00:  81%|████████  | 12114/14993 [17:57<15:18,  3.13it/s, avg=2.984, gn=0.23, lr=2.25e-04][3,100,184 pairs] val loss  2.271 | val ppl     9.69
+Epoch 00:  82%|████████▏ | 12309/14993 [18:09<13:17,  3.37it/s, avg=2.880, gn=0.33, lr=2.11e-04][3,150,104 pairs] val loss  2.269 | val ppl     9.67
+Epoch 00:  83%|████████▎ | 12504/14993 [18:24<13:08,  3.16it/s, avg=2.921, gn=0.27, lr=1.98e-04][3,200,024 pairs] val loss  2.261 | val ppl     9.59
+Epoch 00:  85%|████████▍ | 12700/14993 [18:38<11:46,  3.25it/s, avg=2.894, gn=0.29, lr=1.85e-04][3,250,200 pairs] val loss  2.256 | val ppl     9.54
+Epoch 00:  86%|████████▌ | 12894/14993 [18:51<13:51,  2.52it/s, avg=2.900, gn=0.23, lr=1.74e-04][3,300,120 pairs] val loss  2.251 | val ppl     9.50
+Epoch 00:  87%|████████▋ | 13090/14993 [19:04<09:09,  3.46it/s, avg=2.894, gn=0.23, lr=1.64e-04][3,350,040 pairs] val loss  2.244 | val ppl     9.43
+Epoch 00:  89%|████████▊ | 13286/14993 [19:17<08:08,  3.49it/s, avg=2.894, gn=0.32, lr=1.54e-04][3,400,216 pairs] val loss  2.240 | val ppl     9.39
+Epoch 00:  90%|████████▉ | 13476/14993 [19:31<01:18, 19.36it/s, avg=2.882, gn=0.27, lr=1.46e-04][3,450,136 pairs] val loss  2.236 | val ppl     9.36
+Epoch 00:  91%|█████████ | 13676/14993 [19:45<06:12,  3.54it/s, avg=2.839, gn=0.25, lr=1.38e-04][3,500,056 pairs] val loss  2.230 | val ppl     9.30
+Epoch 00:  93%|█████████▎| 13872/14993 [19:58<05:26,  3.43it/s, avg=2.846, gn=0.41, lr=1.31e-04][3,550,232 pairs] val loss  2.228 | val ppl     9.28
+Epoch 00:  94%|█████████▍| 14067/14993 [20:12<04:40,  3.30it/s, avg=2.875, gn=0.25, lr=1.26e-04][3,600,152 pairs] val loss  2.223 | val ppl     9.24
+Epoch 00:  95%|█████████▌| 14263/14993 [20:26<04:05,  2.97it/s, avg=2.877, gn=0.40, lr=1.21e-04][3,650,072 pairs] val loss  2.219 | val ppl     9.20
+Epoch 00:  96%|█████████▋| 14457/14993 [20:40<03:32,  2.53it/s, avg=2.913, gn=0.35, lr=1.18e-04][3,700,248 pairs] val loss  2.215 | val ppl     9.16
+Epoch 00:  98%|█████████▊| 14652/14993 [20:53<01:53,  2.99it/s, avg=2.889, gn=0.24, lr=1.16e-04][3,750,168 pairs] val loss  2.212 | val ppl     9.13
+Epoch 00:  99%|█████████▉| 14849/14993 [21:07<00:35,  4.03it/s, avg=2.852, gn=0.33, lr=1.14e-04][3,800,088 pairs] val loss  2.209 | val ppl     9.11
+Epoch 00: 100%|██████████| 14993/14993 [21:15<00:00, 11.75it/s, avg=2.876, gn=0.28, lr=1.14e-04]
+Epoch 00 | train  2.876 | val loss  2.209| val ppl     9.11
+
+SOURCE:    Full contest rules are available at participating Canadian Tire outlets.
+TARGET:    Pour connaître les règlements officiels, présentez-vous à un magasin Canadian Tire participant.
+PREDICTED: Les règles de concours complètes sont disponibles aux points de vente canadiens participants.
+
+SOURCE:    The authorities did not grant Amnesty International access to the country.
+TARGET:    Les autorités camerounaises n’ont pas accordé à Amnesty International l’autorisation de se rendre dans le pays.
+PREDICTED: Les autorités n'ont pas accordé à Amnesty International un accès au pays.
+
+SOURCE:    The game is finished and will be released in 2 weeks in Japan.
+TARGET:    Le jeu est fini et sort le 29 Janvier au Japon.
+PREDICTED: Le jeu est terminé et sera sorti en 2 semaines au Japon.
+
+VALIDATION (greedy) over 3072 sentences | BLEU 0.295
+GPU after cleanup: 0.02 GB
+
+=== sinusoidal seed 2 === GPU before: 0.02 GB
+dataset: memory cache hit
+Vocab 32000 | train 3837976 val 38948
+Parameters: 58,867,712
+Epoch 00:   1%|▏         | 200/14993 [01:32<1:44:40,  2.36it/s, avg=7.915, gn=1.03, lr=1.52e-04][50,176 pairs] val loss  7.383 | val ppl  1608.51
+Epoch 00:   3%|▎         | 393/14993 [01:46<1:34:41,  2.57it/s, avg=6.844, gn=0.93, lr=3.01e-04][100,096 pairs] val loss  6.517 | val ppl   676.43
+Epoch 00:   4%|▍         | 589/14993 [02:00<1:11:17,  3.37it/s, avg=6.207, gn=0.74, lr=4.49e-04][150,016 pairs] val loss  5.837 | val ppl   342.71
+Epoch 00:   5%|▌         | 785/14993 [02:14<1:18:08,  3.03it/s, avg=5.542, gn=0.63, lr=5.98e-04][200,192 pairs] val loss  5.240 | val ppl   188.75
+Epoch 00:   7%|▋         | 981/14993 [02:26<1:00:18,  3.87it/s, avg=5.035, gn=0.63, lr=7.47e-04][250,112 pairs] val loss  4.783 | val ppl   119.40
+Epoch 00:   8%|▊         | 1176/14993 [02:41<1:12:58,  3.16it/s, avg=4.841, gn=0.64, lr=8.95e-04][300,032 pairs] val loss  4.498 | val ppl    89.86
+Epoch 00:   9%|▉         | 1371/14993 [02:54<1:04:47,  3.50it/s, avg=4.574, gn=0.76, lr=1.05e-03][350,208 pairs] val loss  4.194 | val ppl    66.31
+Epoch 00:  10%|█         | 1565/14993 [03:09<1:25:40,  2.61it/s, avg=4.408, gn=0.77, lr=1.14e-03][400,128 pairs] val loss  3.946 | val ppl    51.73
+Epoch 00:  12%|█▏        | 1760/14993 [03:23<1:27:27,  2.52it/s, avg=4.204, gn=0.64, lr=1.14e-03][450,048 pairs] val loss  3.714 | val ppl    41.01
+Epoch 00:  13%|█▎        | 1956/14993 [03:38<1:24:41,  2.57it/s, avg=4.006, gn=0.52, lr=1.14e-03][500,224 pairs] val loss  3.588 | val ppl    36.17
+Epoch 00:  14%|█▍        | 2151/14993 [03:51<1:07:55,  3.15it/s, avg=3.917, gn=0.54, lr=1.14e-03][550,144 pairs] val loss  3.475 | val ppl    32.30
+Epoch 00:  16%|█▌        | 2347/14993 [04:05<1:00:11,  3.50it/s, avg=3.768, gn=0.50, lr=1.13e-03][600,064 pairs] val loss  3.352 | val ppl    28.56
+Epoch 00:  17%|█▋        | 2542/14993 [04:18<1:22:34,  2.51it/s, avg=3.726, gn=0.37, lr=1.13e-03][650,240 pairs] val loss  3.237 | val ppl    25.46
+Epoch 00:  18%|█▊        | 2737/14993 [04:30<1:19:06,  2.58it/s, avg=3.684, gn=0.36, lr=1.12e-03][700,160 pairs] val loss  3.181 | val ppl    24.06
+Epoch 00:  20%|█▉        | 2932/14993 [04:44<1:06:13,  3.04it/s, avg=3.659, gn=0.45, lr=1.11e-03][750,080 pairs] val loss  3.141 | val ppl    23.14
+Epoch 00:  21%|██        | 3128/14993 [04:57<55:48,  3.54it/s, avg=3.531, gn=0.35, lr=1.10e-03][800,000 pairs] val loss  3.086 | val ppl    21.90
+Epoch 00:  22%|██▏       | 3322/14993 [05:10<1:15:58,  2.56it/s, avg=3.531, gn=0.44, lr=1.10e-03][850,176 pairs] val loss  3.030 | val ppl    20.70
+Epoch 00:  23%|██▎       | 3518/14993 [05:24<1:15:05,  2.55it/s, avg=3.502, gn=0.33, lr=1.09e-03][900,096 pairs] val loss  2.987 | val ppl    19.83
+Epoch 00:  25%|██▍       | 3714/14993 [05:38<53:19,  3.53it/s, avg=3.484, gn=0.33, lr=1.07e-03][950,016 pairs] val loss  2.967 | val ppl    19.43
+Epoch 00:  26%|██▌       | 3910/14993 [05:50<49:33,  3.73it/s, avg=3.424, gn=0.34, lr=1.06e-03][1,000,192 pairs] val loss  2.939 | val ppl    18.90
+Epoch 00:  27%|██▋       | 4100/14993 [06:03<07:34, 23.95it/s, avg=3.344, gn=0.38, lr=1.05e-03][1,050,112 pairs] val loss  2.918 | val ppl    18.50
+Epoch 00:  29%|██▊       | 4300/14993 [06:17<51:48,  3.44it/s, avg=3.418, gn=0.34, lr=1.04e-03][1,100,032 pairs] val loss  2.850 | val ppl    17.28
+Epoch 00:  30%|██▉       | 4497/14993 [06:30<51:02,  3.43it/s, avg=3.409, gn=0.28, lr=1.02e-03]  [1,150,208 pairs] val loss  2.818 | val ppl    16.74
+Epoch 00:  31%|███▏      | 4690/14993 [06:44<1:03:40,  2.70it/s, avg=3.354, gn=0.41, lr=1.01e-03][1,200,128 pairs] val loss  2.797 | val ppl    16.39
+Epoch 00:  33%|███▎      | 4885/14993 [06:57<56:27,  2.98it/s, avg=3.310, gn=0.34, lr=9.89e-04][1,250,048 pairs] val loss  2.782 | val ppl    16.15
+Epoch 00:  34%|███▍      | 5081/14993 [07:10<1:03:19,  2.61it/s, avg=3.311, gn=0.29, lr=9.72e-04][1,300,224 pairs] val loss  2.767 | val ppl    15.91
+Epoch 00:  35%|███▌      | 5277/14993 [07:24<1:00:13,  2.69it/s, avg=3.331, gn=0.29, lr=9.55e-04][1,350,144 pairs] val loss  2.717 | val ppl    15.14
+Epoch 00:  37%|███▋      | 5474/14993 [07:38<45:56,  3.45it/s, avg=3.290, gn=0.38, lr=9.36e-04]  [1,400,064 pairs] val loss  2.699 | val ppl    14.86
+Epoch 00:  38%|███▊      | 5668/14993 [07:52<48:11,  3.23it/s, avg=3.191, gn=0.37, lr=9.17e-04][1,450,240 pairs] val loss  2.690 | val ppl    14.74
+Epoch 00:  39%|███▉      | 5863/14993 [08:06<49:06,  3.10it/s, avg=3.268, gn=0.29, lr=8.98e-04]  [1,500,160 pairs] val loss  2.682 | val ppl    14.61
+Epoch 00:  40%|████      | 6060/14993 [08:20<38:49,  3.84it/s, avg=3.210, gn=0.32, lr=8.78e-04][1,550,080 pairs] val loss  2.639 | val ppl    14.00
+Epoch 00:  42%|████▏     | 6253/14993 [08:32<44:53,  3.24it/s, avg=3.204, gn=0.25, lr=8.57e-04][1,600,000 pairs] val loss  2.641 | val ppl    14.02
+Epoch 00:  43%|████▎     | 6449/14993 [08:46<40:45,  3.49it/s, avg=3.192, gn=0.34, lr=8.36e-04][1,650,176 pairs] val loss  2.612 | val ppl    13.63
+Epoch 00:  44%|████▍     | 6645/14993 [09:00<39:49,  3.49it/s, avg=3.139, gn=0.30, lr=8.15e-04][1,700,096 pairs] val loss  2.608 | val ppl    13.58
+Epoch 00:  46%|████▌     | 6838/14993 [09:14<45:11,  3.01it/s, avg=3.206, gn=0.30, lr=7.93e-04][1,750,016 pairs] val loss  2.609 | val ppl    13.58
+Epoch 00:  47%|████▋     | 7034/14993 [09:27<54:04,  2.45it/s, avg=3.180, gn=0.23, lr=7.71e-04][1,800,192 pairs] val loss  2.558 | val ppl    12.91
+Epoch 00:  48%|████▊     | 7227/14993 [09:42<52:57,  2.44it/s, avg=3.150, gn=0.36, lr=7.48e-04][1,850,112 pairs] val loss  2.552 | val ppl    12.84
+Epoch 00:  50%|████▉     | 7426/14993 [09:56<36:45,  3.43it/s, avg=3.155, gn=0.32, lr=7.25e-04][1,900,032 pairs] val loss  2.526 | val ppl    12.50
+Epoch 00:  51%|█████     | 7620/14993 [10:11<48:46,  2.52it/s, avg=3.147, gn=0.25, lr=7.02e-04][1,950,208 pairs] val loss  2.514 | val ppl    12.36
+Epoch 00:  52%|█████▏    | 7815/14993 [10:25<47:21,  2.53it/s, avg=3.120, gn=0.27, lr=6.79e-04][2,000,128 pairs] val loss  2.516 | val ppl    12.37
+Epoch 00:  53%|█████▎    | 8009/14993 [10:38<43:45,  2.66it/s, avg=3.037, gn=0.34, lr=6.56e-04][2,050,048 pairs] val loss  2.506 | val ppl    12.25
+Epoch 00:  55%|█████▍    | 8207/14993 [10:50<35:23,  3.20it/s, avg=3.074, gn=0.34, lr=6.32e-04][2,100,224 pairs] val loss  2.487 | val ppl    12.03
+Epoch 00:  56%|█████▌    | 8403/14993 [11:04<34:12,  3.21it/s, avg=3.095, gn=0.29, lr=6.09e-04][2,150,144 pairs] val loss  2.465 | val ppl    11.77
+Epoch 00:  57%|█████▋    | 8596/14993 [11:16<40:57,  2.60it/s, avg=3.064, gn=0.30, lr=5.86e-04][2,200,064 pairs] val loss  2.470 | val ppl    11.82
+Epoch 00:  59%|█████▊    | 8792/14993 [11:29<40:58,  2.52it/s, avg=3.084, gn=0.30, lr=5.62e-04][2,250,240 pairs] val loss  2.448 | val ppl    11.57
+Epoch 00:  60%|█████▉    | 8987/14993 [11:42<39:10,  2.56it/s, avg=3.005, gn=0.25, lr=5.39e-04][2,300,160 pairs] val loss  2.438 | val ppl    11.45
+Epoch 00:  61%|██████    | 9183/14993 [11:56<30:29,  3.18it/s, avg=3.025, gn=0.25, lr=5.16e-04][2,350,080 pairs] val loss  2.414 | val ppl    11.18
+Epoch 00:  63%|██████▎   | 9379/14993 [12:09<29:25,  3.18it/s, avg=3.025, gn=0.30, lr=4.94e-04][2,400,000 pairs] val loss  2.406 | val ppl    11.09
+Epoch 00:  64%|██████▍   | 9574/14993 [12:22<27:07,  3.33it/s, avg=3.032, gn=0.26, lr=4.71e-04][2,450,176 pairs] val loss  2.396 | val ppl    10.98
+Epoch 00:  65%|██████▌   | 9768/14993 [12:36<34:31,  2.52it/s, avg=2.992, gn=0.30, lr=4.49e-04][2,500,096 pairs] val loss  2.388 | val ppl    10.90
+Epoch 00:  66%|██████▋   | 9965/14993 [12:49<24:17,  3.45it/s, avg=3.002, gn=0.27, lr=4.28e-04][2,550,016 pairs] val loss  2.374 | val ppl    10.74
+Epoch 00:  68%|██████▊   | 10157/14993 [13:02<31:12,  2.58it/s, avg=2.951, gn=0.33, lr=4.06e-04][2,600,192 pairs] val loss  2.367 | val ppl    10.66
+Epoch 00:  69%|██████▉   | 10356/14993 [13:16<25:07,  3.08it/s, avg=2.990, gn=0.25, lr=3.85e-04][2,650,112 pairs] val loss  2.352 | val ppl    10.51
+Epoch 00:  70%|███████   | 10548/14993 [13:30<28:42,  2.58it/s, avg=2.948, gn=0.31, lr=3.65e-04][2,700,032 pairs] val loss  2.350 | val ppl    10.49
+Epoch 00:  72%|███████▏  | 10746/14993 [13:44<23:05,  3.06it/s, avg=2.960, gn=0.33, lr=3.45e-04][2,750,208 pairs] val loss  2.336 | val ppl    10.34
+Epoch 00:  73%|███████▎  | 10941/14993 [13:57<21:13,  3.18it/s, avg=2.970, gn=0.27, lr=3.26e-04][2,800,128 pairs] val loss  2.333 | val ppl    10.31
+Epoch 00:  74%|███████▍  | 11135/14993 [14:11<26:03,  2.47it/s, avg=2.936, gn=0.25, lr=3.08e-04][2,850,072 pairs] val loss  2.315 | val ppl    10.12
+Epoch 00:  76%|███████▌  | 11333/14993 [14:25<17:14,  3.54it/s, avg=2.946, gn=0.22, lr=2.89e-04][2,900,248 pairs] val loss  2.313 | val ppl    10.10
+Epoch 00:  77%|███████▋  | 11530/14993 [14:39<16:53,  3.42it/s, avg=2.958, gn=0.25, lr=2.72e-04][2,950,168 pairs] val loss  2.301 | val ppl     9.99
+Epoch 00:  78%|███████▊  | 11723/14993 [14:52<15:54,  3.43it/s, avg=2.993, gn=0.29, lr=2.56e-04][3,000,088 pairs] val loss  2.291 | val ppl     9.89
+Epoch 00:  79%|███████▉  | 11916/14993 [15:06<22:48,  2.25it/s, avg=2.912, gn=0.35, lr=2.40e-04][3,050,008 pairs] val loss  2.284 | val ppl     9.82
+Epoch 00:  81%|████████  | 12113/14993 [15:20<19:15,  2.49it/s, avg=2.932, gn=0.31, lr=2.25e-04][3,100,184 pairs] val loss  2.279 | val ppl     9.77
+Epoch 00:  82%|████████▏ | 12309/14993 [15:34<16:57,  2.64it/s, avg=2.906, gn=0.26, lr=2.11e-04][3,150,104 pairs] val loss  2.270 | val ppl     9.68
+Epoch 00:  83%|████████▎ | 12504/14993 [15:47<11:55,  3.48it/s, avg=2.941, gn=0.34, lr=1.98e-04][3,200,024 pairs] val loss  2.262 | val ppl     9.61
+Epoch 00:  85%|████████▍ | 12698/14993 [16:00<16:23,  2.33it/s, avg=2.915, gn=0.23, lr=1.86e-04][3,250,200 pairs] val loss  2.261 | val ppl     9.59
+Epoch 00:  86%|████████▌ | 12896/14993 [16:14<10:27,  3.34it/s, avg=2.898, gn=0.29, lr=1.74e-04][3,300,120 pairs] val loss  2.253 | val ppl     9.52
+Epoch 00:  87%|████████▋ | 13086/14993 [16:28<01:28, 21.53it/s, avg=2.883, gn=0.28, lr=1.64e-04][3,350,040 pairs] val loss  2.250 | val ppl     9.49
+Epoch 00:  89%|████████▊ | 13287/14993 [16:42<08:56,  3.18it/s, avg=2.878, gn=0.24, lr=1.54e-04][3,400,216 pairs] val loss  2.243 | val ppl     9.42
+Epoch 00:  90%|████████▉ | 13480/14993 [16:56<10:13,  2.46it/s, avg=2.897, gn=0.34, lr=1.46e-04][3,450,136 pairs] val loss  2.240 | val ppl     9.40
+Epoch 00:  91%|█████████ | 13676/14993 [17:09<06:53,  3.18it/s, avg=2.884, gn=0.30, lr=1.38e-04][3,500,056 pairs] val loss  2.232 | val ppl     9.32
+Epoch 00:  93%|█████████▎| 13872/14993 [17:23<05:39,  3.30it/s, avg=2.893, gn=0.41, lr=1.31e-04][3,550,232 pairs] val loss  2.228 | val ppl     9.28
+Epoch 00:  94%|█████████▍| 14069/14993 [17:37<04:33,  3.38it/s, avg=2.890, gn=0.31, lr=1.26e-04][3,600,152 pairs] val loss  2.226 | val ppl     9.26
+Epoch 00:  95%|█████████▌| 14261/14993 [17:51<04:51,  2.51it/s, avg=2.861, gn=0.26, lr=1.21e-04][3,650,072 pairs] val loss  2.223 | val ppl     9.24
+Epoch 00:  96%|█████████▋| 14458/14993 [18:04<02:47,  3.20it/s, avg=2.923, gn=0.29, lr=1.18e-04][3,700,248 pairs] val loss  2.218 | val ppl     9.19
+Epoch 00:  98%|█████████▊| 14653/14993 [18:17<01:48,  3.14it/s, avg=2.833, gn=0.25, lr=1.16e-04][3,750,168 pairs] val loss  2.218 | val ppl     9.19
+Epoch 00:  99%|█████████▉| 14846/14993 [18:30<00:57,  2.56it/s, avg=2.842, gn=0.30, lr=1.14e-04][3,800,088 pairs] val loss  2.214 | val ppl     9.16
+Epoch 00: 100%|██████████| 14993/14993 [18:37<00:00, 13.41it/s, avg=2.863, gn=0.28, lr=1.14e-04]
+Epoch 00 | train  2.863 | val loss  2.213| val ppl     9.14
+
+SOURCE:    and pass it a string containing the SQL statement.
+TARGET:    retourne un pointeur de commande valide.
+PREDICTED: et passez une chaîne contenant la requête SQL.
+
+SOURCE:    In some dialog boxes, options are divided into two or more tabs.
+TARGET:    Dans certaines boîtes de dialogue, les options sont réparties dans deux ou plusieurs onglets.
+PREDICTED: Dans certaines boîtes de dialogue, les options sont divisées en deux ou plusieurs onglets.
+
+SOURCE:    Note: Don't forget to update any headers accordingly.
+TARGET:    Note: N'oubliez pas de mettre à jour tous les en-têtes en fonction.
+PREDICTED: Note: N'oubliez pas de mettre à jour les en-têtes en conséquence.
+
+VALIDATION (greedy) over 3072 sentences | BLEU 0.296
+GPU after cleanup: 0.02 GB
+
+=== rope seed 1 === GPU before: 0.02 GB
+dataset: memory cache hit
+Vocab 32000 | train 3837976 val 38948
+Parameters: 58,867,712
+Epoch 00:   1%|▏         | 199/14993 [05:26<2:08:38,  1.92it/s, avg=7.872, gn=1.14, lr=1.53e-04][50,200 pairs] val loss  7.318 | val ppl  1507.09
+Epoch 00:   3%|▎         | 394/14993 [05:41<2:04:12,  1.96it/s, avg=6.716, gn=0.73, lr=3.00e-04][100,120 pairs] val loss  6.315 | val ppl   552.80
+Epoch 00:   4%|▍         | 586/14993 [05:56<12:13, 19.65it/s, avg=5.972, gn=0.72, lr=4.47e-04][150,040 pairs] val loss  5.615 | val ppl   274.46
+Epoch 00:   5%|▌         | 787/14993 [06:11<1:41:43,  2.33it/s, avg=5.397, gn=0.99, lr=5.99e-04][200,216 pairs] val loss  5.024 | val ppl   152.06
+Epoch 00:   7%|▋         | 979/14993 [06:27<2:31:22,  1.54it/s, avg=5.009, gn=0.47, lr=7.46e-04][250,136 pairs] val loss  4.580 | val ppl    97.54
+Epoch 00:   8%|▊         | 1175/14993 [06:42<1:49:44,  2.10it/s, avg=4.646, gn=0.65, lr=8.96e-04][300,056 pairs] val loss  4.281 | val ppl    72.28
+Epoch 00:   9%|▉         | 1372/14993 [06:57<1:40:43,  2.25it/s, avg=4.420, gn=0.53, lr=1.04e-03][350,232 pairs] val loss  3.946 | val ppl    51.72
+Epoch 00:  10%|█         | 1566/14993 [07:13<1:30:58,  2.46it/s, avg=4.202, gn=0.49, lr=1.14e-03][400,152 pairs] val loss  3.791 | val ppl    44.32
+Epoch 00:  12%|█▏        | 1762/14993 [07:29<1:50:15,  2.00it/s, avg=4.139, gn=0.37, lr=1.14e-03][450,072 pairs] val loss  3.521 | val ppl    33.83
+Epoch 00:  13%|█▎        | 1959/14993 [07:44<1:38:19,  2.21it/s, avg=3.969, gn=0.59, lr=1.14e-03][500,248 pairs] val loss  3.392 | val ppl    29.72
+Epoch 00:  14%|█▍        | 2153/14993 [08:00<1:48:43,  1.97it/s, avg=3.884, gn=0.37, lr=1.14e-03][550,168 pairs] val loss  3.342 | val ppl    28.29
+Epoch 00:  16%|█▌        | 2349/14993 [08:15<1:16:59,  2.74it/s, avg=3.698, gn=0.47, lr=1.13e-03][600,088 pairs] val loss  3.282 | val ppl    26.62
+Epoch 00:  17%|█▋        | 2539/14993 [08:30<15:08, 13.71it/s, avg=3.690, gn=0.55, lr=1.13e-03][650,008 pairs] val loss  3.189 | val ppl    24.27
+Epoch 00:  18%|█▊        | 2737/14993 [08:46<1:44:06,  1.96it/s, avg=3.637, gn=0.42, lr=1.12e-03][700,184 pairs] val loss  3.097 | val ppl    22.13
+Epoch 00:  20%|█▉        | 2935/14993 [09:01<1:25:38,  2.35it/s, avg=3.552, gn=0.30, lr=1.11e-03][750,104 pairs] val loss  3.061 | val ppl    21.34
+Epoch 00:  21%|██        | 3128/14993 [09:15<1:37:04,  2.04it/s, avg=3.525, gn=0.40, lr=1.10e-03][800,024 pairs] val loss  3.012 | val ppl    20.32
+Epoch 00:  22%|██▏       | 3325/14993 [09:30<1:18:04,  2.49it/s, avg=3.523, gn=0.35, lr=1.10e-03][850,200 pairs] val loss  2.977 | val ppl    19.62
+Epoch 00:  23%|██▎       | 3520/14993 [09:46<1:09:15,  2.76it/s, avg=3.414, gn=0.40, lr=1.09e-03][900,120 pairs] val loss  2.918 | val ppl    18.51
+Epoch 00:  25%|██▍       | 3713/14993 [10:00<2:04:38,  1.51it/s, avg=3.467, gn=0.33, lr=1.07e-03][950,040 pairs] val loss  2.849 | val ppl    17.27
+Epoch 00:  26%|██▌       | 3909/14993 [10:15<1:32:31,  2.00it/s, avg=3.433, gn=0.29, lr=1.06e-03][1,000,216 pairs] val loss  2.828 | val ppl    16.91
+Epoch 00:  27%|██▋       | 4105/14993 [10:30<1:31:34,  1.98it/s, avg=3.385, gn=0.37, lr=1.05e-03][1,050,136 pairs] val loss  2.802 | val ppl    16.47
+Epoch 00:  29%|██▊       | 4302/14993 [10:45<1:05:42,  2.71it/s, avg=3.377, gn=0.32, lr=1.04e-03][1,100,056 pairs] val loss  2.759 | val ppl    15.78
+Epoch 00:  30%|██▉       | 4495/14993 [11:01<1:50:57,  1.58it/s, avg=3.349, gn=0.34, lr=1.02e-03][1,150,232 pairs] val loss  2.732 | val ppl    15.36
+Epoch 00:  31%|███▏      | 4689/14993 [11:16<1:31:59,  1.87it/s, avg=3.355, gn=0.26, lr=1.01e-03][1,200,152 pairs] val loss  2.721 | val ppl    15.19
+Epoch 00:  33%|███▎      | 4887/14993 [11:31<1:10:27,  2.39it/s, avg=3.268, gn=0.30, lr=9.89e-04][1,250,072 pairs] val loss  2.707 | val ppl    14.99
+Epoch 00:  34%|███▍      | 5081/14993 [11:46<1:33:40,  1.76it/s, avg=3.292, gn=0.22, lr=9.72e-04][1,300,248 pairs] val loss  2.666 | val ppl    14.38
+Epoch 00:  35%|███▌      | 5278/14993 [12:01<59:29,  2.72it/s, avg=3.229, gn=0.28, lr=9.55e-04][1,350,168 pairs] val loss  2.659 | val ppl    14.29
+Epoch 00:  36%|███▋      | 5472/14993 [12:15<1:03:37,  2.49it/s, avg=3.241, gn=0.26, lr=9.36e-04][1,400,088 pairs] val loss  2.635 | val ppl    13.94
+Epoch 00:  38%|███▊      | 5667/14993 [12:30<1:04:35,  2.41it/s, avg=3.221, gn=0.32, lr=9.17e-04][1,450,008 pairs] val loss  2.623 | val ppl    13.78
+Epoch 00:  39%|███▉      | 5863/14993 [12:44<1:15:18,  2.02it/s, avg=3.125, gn=0.43, lr=8.98e-04][1,500,184 pairs] val loss  2.625 | val ppl    13.81
+Epoch 00:  40%|████      | 6058/14993 [12:59<1:13:39,  2.02it/s, avg=3.116, gn=0.35, lr=8.78e-04][1,550,104 pairs] val loss  2.602 | val ppl    13.49
+Epoch 00:  42%|████▏     | 6254/14993 [13:14<53:12,  2.74it/s, avg=3.166, gn=0.33, lr=8.57e-04][1,600,024 pairs] val loss  2.572 | val ppl    13.09
+Epoch 00:  43%|████▎     | 6449/14993 [13:29<1:12:52,  1.95it/s, avg=3.158, gn=0.34, lr=8.36e-04][1,650,200 pairs] val loss  2.554 | val ppl    12.86
+Epoch 00:  44%|████▍     | 6644/14993 [13:44<1:08:56,  2.02it/s, avg=3.148, gn=0.22, lr=8.15e-04][1,700,120 pairs] val loss  2.540 | val ppl    12.68
+Epoch 00:  46%|████▌     | 6839/14993 [13:59<1:10:34,  1.93it/s, avg=3.153, gn=0.21, lr=7.93e-04][1,750,040 pairs] val loss  2.520 | val ppl    12.43
+Epoch 00:  47%|████▋     | 7036/14993 [14:14<47:32,  2.79it/s, avg=3.068, gn=0.35, lr=7.70e-04][1,800,216 pairs] val loss  2.510 | val ppl    12.30
+Epoch 00:  48%|████▊     | 7231/14993 [14:29<1:00:59,  2.12it/s, avg=3.164, gn=0.25, lr=7.48e-04][1,850,136 pairs] val loss  2.478 | val ppl    11.92
+Epoch 00:  50%|████▉     | 7425/14993 [14:44<1:03:04,  2.00it/s, avg=3.094, gn=0.36, lr=7.25e-04][1,900,056 pairs] val loss  2.474 | val ppl    11.87
+Epoch 00:  51%|█████     | 7623/14993 [14:59<44:29,  2.76it/s, avg=3.092, gn=0.26, lr=7.02e-04]  [1,950,232 pairs] val loss  2.470 | val ppl    11.82
+Epoch 00:  52%|█████▏    | 7817/14993 [15:14<47:02,  2.54it/s, avg=3.102, gn=0.23, lr=6.79e-04]  [2,000,152 pairs] val loss  2.459 | val ppl    11.69
+Epoch 00:  53%|█████▎    | 8012/14993 [15:28<55:11,  2.11it/s, avg=3.090, gn=0.21, lr=6.56e-04]  [2,050,072 pairs] val loss  2.438 | val ppl    11.45
+Epoch 00:  55%|█████▍    | 8208/14993 [15:42<46:05,  2.45it/s, avg=3.075, gn=0.21, lr=6.32e-04][2,100,248 pairs] val loss  2.429 | val ppl    11.34
+Epoch 00:  56%|█████▌    | 8402/14993 [15:58<55:17,  1.99it/s, avg=3.080, gn=0.29, lr=6.09e-04][2,150,168 pairs] val loss  2.417 | val ppl    11.21
+Epoch 00:  57%|█████▋    | 8597/14993 [16:12<53:46,  1.98it/s, avg=3.003, gn=0.25, lr=5.86e-04][2,200,088 pairs] val loss  2.415 | val ppl    11.19
+Epoch 00:  59%|█████▊    | 8791/14993 [16:27<52:25,  1.97it/s, avg=3.046, gn=0.31, lr=5.62e-04][2,250,008 pairs] val loss  2.390 | val ppl    10.92
+Epoch 00:  60%|█████▉    | 8990/14993 [16:42<36:23,  2.75it/s, avg=2.994, gn=0.23, lr=5.39e-04][2,300,184 pairs] val loss  2.387 | val ppl    10.88
+Epoch 00:  61%|██████▏   | 9184/14993 [16:57<36:56,  2.62it/s, avg=2.973, gn=0.25, lr=5.16e-04][2,350,104 pairs] val loss  2.381 | val ppl    10.81
+Epoch 00:  63%|██████▎   | 9379/14993 [17:13<33:37,  2.78it/s, avg=2.969, gn=0.30, lr=4.94e-04][2,400,024 pairs] val loss  2.365 | val ppl    10.65
+Epoch 00:  64%|██████▍   | 9574/14993 [17:28<36:25,  2.48it/s, avg=2.973, gn=0.22, lr=4.71e-04][2,450,200 pairs] val loss  2.360 | val ppl    10.59
+Epoch 00:  65%|██████▌   | 9768/14993 [17:42<52:30,  1.66it/s, avg=3.000, gn=0.37, lr=4.49e-04][2,500,120 pairs] val loss  2.342 | val ppl    10.40
+Epoch 00:  66%|██████▋   | 9961/14993 [17:57<04:04, 20.60it/s, avg=2.966, gn=0.34, lr=4.28e-04][2,550,040 pairs] val loss  2.332 | val ppl    10.30
+Epoch 00:  68%|██████▊   | 10161/14993 [18:12<37:14,  2.16it/s, avg=2.974, gn=0.21, lr=4.06e-04][2,600,216 pairs] val loss  2.323 | val ppl    10.21
+Epoch 00:  69%|██████▉   | 10355/14993 [18:28<38:47,  1.99it/s, avg=2.959, gn=0.31, lr=3.85e-04][2,650,136 pairs] val loss  2.310 | val ppl    10.08
+Epoch 00:  70%|███████   | 10551/14993 [18:43<28:22,  2.61it/s, avg=2.933, gn=0.28, lr=3.65e-04][2,700,056 pairs] val loss  2.304 | val ppl    10.02
+Epoch 00:  72%|███████▏  | 10747/14993 [18:58<27:16,  2.59it/s, avg=2.908, gn=0.36, lr=3.45e-04][2,750,232 pairs] val loss  2.294 | val ppl     9.91
+Epoch 00:  73%|███████▎  | 10941/14993 [19:13<30:07,  2.24it/s, avg=2.947, gn=0.22, lr=3.26e-04][2,800,152 pairs] val loss  2.283 | val ppl     9.81
+Epoch 00:  74%|███████▍  | 11137/14993 [19:29<23:59,  2.68it/s, avg=2.896, gn=0.27, lr=3.07e-04][2,850,072 pairs] val loss  2.279 | val ppl     9.77
+Epoch 00:  76%|███████▌  | 11333/14993 [19:44<26:14,  2.32it/s, avg=2.908, gn=0.33, lr=2.89e-04][2,900,248 pairs] val loss  2.266 | val ppl     9.64
+Epoch 00:  77%|███████▋  | 11528/14993 [19:59<20:39,  2.80it/s, avg=2.892, gn=0.25, lr=2.72e-04][2,950,168 pairs] val loss  2.264 | val ppl     9.62
+Epoch 00:  78%|███████▊  | 11722/14993 [20:14<27:18,  2.00it/s, avg=2.920, gn=0.30, lr=2.56e-04][3,000,088 pairs] val loss  2.249 | val ppl     9.47
+Epoch 00:  79%|███████▉  | 11919/14993 [20:29<18:59,  2.70it/s, avg=2.902, gn=0.34, lr=2.40e-04][3,050,008 pairs] val loss  2.246 | val ppl     9.45
+Epoch 00:  81%|████████  | 12114/14993 [20:45<23:13,  2.07it/s, avg=2.954, gn=0.21, lr=2.25e-04][3,100,184 pairs] val loss  2.236 | val ppl     9.36
+Epoch 00:  82%|████████▏ | 12310/14993 [20:59<17:12,  2.60it/s, avg=2.853, gn=0.32, lr=2.11e-04][3,150,104 pairs] val loss  2.233 | val ppl     9.33
+Epoch 00:  83%|████████▎ | 12504/14993 [21:15<15:46,  2.63it/s, avg=2.895, gn=0.26, lr=1.98e-04][3,200,024 pairs] val loss  2.223 | val ppl     9.23
+Epoch 00:  85%|████████▍ | 12700/14993 [21:30<13:55,  2.74it/s, avg=2.868, gn=0.29, lr=1.85e-04][3,250,200 pairs] val loss  2.219 | val ppl     9.20
+Epoch 00:  86%|████████▌ | 12895/14993 [21:45<14:34,  2.40it/s, avg=2.873, gn=0.20, lr=1.74e-04][3,300,120 pairs] val loss  2.216 | val ppl     9.17
+Epoch 00:  87%|████████▋ | 13090/14993 [21:59<11:35,  2.73it/s, avg=2.870, gn=0.26, lr=1.64e-04][3,350,040 pairs] val loss  2.209 | val ppl     9.11
+Epoch 00:  89%|████████▊ | 13285/14993 [22:14<15:01,  1.89it/s, avg=2.872, gn=0.31, lr=1.54e-04][3,400,216 pairs] val loss  2.202 | val ppl     9.05
+Epoch 00:  90%|████████▉ | 13478/14993 [22:29<13:47,  1.83it/s, avg=2.859, gn=0.27, lr=1.46e-04][3,450,136 pairs] val loss  2.199 | val ppl     9.02
+Epoch 00:  91%|█████████ | 13676/14993 [22:45<07:46,  2.82it/s, avg=2.817, gn=0.25, lr=1.38e-04][3,500,056 pairs] val loss  2.196 | val ppl     8.99
+Epoch 00:  93%|█████████▎| 13874/14993 [23:00<06:40,  2.80it/s, avg=2.824, gn=0.39, lr=1.31e-04][3,550,232 pairs] val loss  2.190 | val ppl     8.94
+Epoch 00:  94%|█████████▍| 14067/14993 [23:15<06:03,  2.55it/s, avg=2.849, gn=0.24, lr=1.26e-04][3,600,152 pairs] val loss  2.188 | val ppl     8.92
+Epoch 00:  95%|█████████▌| 14261/14993 [23:31<05:59,  2.04it/s, avg=2.849, gn=0.37, lr=1.21e-04][3,650,072 pairs] val loss  2.183 | val ppl     8.87
+Epoch 00:  96%|█████████▋| 14459/14993 [23:46<03:15,  2.73it/s, avg=2.887, gn=0.34, lr=1.18e-04][3,700,248 pairs] val loss  2.179 | val ppl     8.83
+Epoch 00:  98%|█████████▊| 14652/14993 [24:01<02:31,  2.26it/s, avg=2.865, gn=0.23, lr=1.16e-04][3,750,168 pairs] val loss  2.176 | val ppl     8.81
+Epoch 00:  99%|█████████▉| 14849/14993 [24:17<00:50,  2.83it/s, avg=2.827, gn=0.32, lr=1.14e-04][3,800,088 pairs] val loss  2.173 | val ppl     8.78
+Epoch 00: 100%|██████████| 14993/14993 [24:25<00:00, 10.23it/s, avg=2.853, gn=0.28, lr=1.14e-04]
+Epoch 00 | train  2.853 | val loss  2.172| val ppl     8.78
+
+SOURCE:    Full contest rules are available at participating Canadian Tire outlets.
+TARGET:    Pour connaître les règlements officiels, présentez-vous à un magasin Canadian Tire participant.
+PREDICTED: Des règles de concours complets sont disponibles dans les points de vente participants du Canada.
+
+SOURCE:    The authorities did not grant Amnesty International access to the country.
+TARGET:    Les autorités camerounaises n’ont pas accordé à Amnesty International l’autorisation de se rendre dans le pays.
+PREDICTED: Les autorités n'ont pas accordé à Amnesty International l'accès au pays.
+
+SOURCE:    The game is finished and will be released in 2 weeks in Japan.
+TARGET:    Le jeu est fini et sort le 29 Janvier au Japon.
+PREDICTED: Le jeu est terminé et sera publié en 2 semaines au Japon.
+
+VALIDATION (greedy) over 3072 sentences | BLEU 0.298
+GPU after cleanup: 0.02 GB
+
+=== rope seed 2 === GPU before: 0.02 GB
+dataset: memory cache hit
+Vocab 32000 | train 3837976 val 38948
+Parameters: 58,867,712
+Epoch 00:   1%|▏         | 200/14993 [01:58<2:15:03,  1.83it/s, avg=7.891, gn=0.73, lr=1.52e-04][50,176 pairs] val loss  7.315 | val ppl  1502.43
+Epoch 00:   3%|▎         | 393/14993 [02:13<1:59:42,  2.03it/s, avg=6.642, gn=0.81, lr=3.01e-04][100,096 pairs] val loss  6.309 | val ppl   549.25
+Epoch 00:   4%|▍         | 589/14993 [02:29<1:29:32,  2.68it/s, avg=5.985, gn=0.76, lr=4.49e-04][150,016 pairs] val loss  5.614 | val ppl   274.25
+Epoch 00:   5%|▌         | 785/14993 [02:44<1:37:52,  2.42it/s, avg=5.375, gn=0.57, lr=5.98e-04][200,192 pairs] val loss  5.064 | val ppl   158.21
+Epoch 00:   7%|▋         | 979/14993 [02:59<1:55:29,  2.02it/s, avg=4.931, gn=0.60, lr=7.47e-04][250,112 pairs] val loss  4.677 | val ppl   107.41
+Epoch 00:   8%|▊         | 1175/14993 [03:15<1:29:48,  2.56it/s, avg=4.674, gn=0.56, lr=8.95e-04][300,032 pairs] val loss  4.275 | val ppl    71.91
+Epoch 00:   9%|▉         | 1372/14993 [03:30<1:25:40,  2.65it/s, avg=4.389, gn=0.58, lr=1.04e-03][350,208 pairs] val loss  3.952 | val ppl    52.05
+Epoch 00:  10%|█         | 1565/14993 [03:46<1:40:13,  2.23it/s, avg=4.258, gn=0.59, lr=1.14e-03][400,128 pairs] val loss  3.759 | val ppl    42.92
+Epoch 00:  12%|█▏        | 1761/14993 [04:02<1:25:14,  2.59it/s, avg=4.080, gn=0.59, lr=1.14e-03][450,048 pairs] val loss  3.560 | val ppl    35.18
+Epoch 00:  13%|█▎        | 1956/14993 [04:18<1:47:46,  2.02it/s, avg=3.922, gn=0.47, lr=1.14e-03][500,224 pairs] val loss  3.469 | val ppl    32.11
+Epoch 00:  14%|█▍        | 2151/14993 [04:33<1:25:57,  2.49it/s, avg=3.851, gn=0.43, lr=1.14e-03][550,144 pairs] val loss  3.385 | val ppl    29.53
+Epoch 00:  16%|█▌        | 2347/14993 [04:48<1:17:09,  2.73it/s, avg=3.729, gn=0.44, lr=1.13e-03][600,064 pairs] val loss  3.281 | val ppl    26.60
+Epoch 00:  17%|█▋        | 2542/14993 [05:03<1:45:54,  1.96it/s, avg=3.684, gn=0.34, lr=1.13e-03][650,240 pairs] val loss  3.161 | val ppl    23.59
+Epoch 00:  18%|█▊        | 2737/14993 [05:17<1:44:17,  1.96it/s, avg=3.644, gn=0.30, lr=1.12e-03][700,160 pairs] val loss  3.099 | val ppl    22.19
+Epoch 00:  20%|█▉        | 2933/14993 [05:32<1:15:39,  2.66it/s, avg=3.599, gn=0.41, lr=1.11e-03][750,080 pairs] val loss  3.079 | val ppl    21.74
+Epoch 00:  21%|██        | 3128/14993 [05:46<1:10:17,  2.81it/s, avg=3.485, gn=0.30, lr=1.10e-03][800,000 pairs] val loss  3.013 | val ppl    20.36
+Epoch 00:  22%|██▏       | 3323/14993 [06:01<1:37:45,  1.99it/s, avg=3.484, gn=0.39, lr=1.10e-03][850,176 pairs] val loss  2.947 | val ppl    19.05
+Epoch 00:  23%|██▎       | 3517/14993 [06:16<1:46:53,  1.79it/s, avg=3.441, gn=0.32, lr=1.09e-03][900,096 pairs] val loss  2.898 | val ppl    18.14
+Epoch 00:  25%|██▍       | 3715/14993 [06:32<1:09:22,  2.71it/s, avg=3.429, gn=0.30, lr=1.07e-03][950,016 pairs] val loss  2.917 | val ppl    18.48
+Epoch 00:  26%|██▌       | 3910/14993 [06:46<1:07:51,  2.72it/s, avg=3.381, gn=0.31, lr=1.06e-03][1,000,192 pairs] val loss  2.871 | val ppl    17.65
+Epoch 00:  27%|██▋       | 4102/14993 [07:00<1:29:59,  2.02it/s, avg=3.305, gn=0.34, lr=1.05e-03][1,050,112 pairs] val loss  2.826 | val ppl    16.87
+Epoch 00:  29%|██▊       | 4299/14993 [07:16<1:12:07,  2.47it/s, avg=3.360, gn=0.31, lr=1.04e-03][1,100,032 pairs] val loss  2.776 | val ppl    16.06
+Epoch 00:  30%|██▉       | 4496/14993 [07:30<1:03:57,  2.74it/s, avg=3.351, gn=0.25, lr=1.02e-03][1,150,208 pairs] val loss  2.743 | val ppl    15.54
+Epoch 00:  31%|███▏      | 4690/14993 [07:46<1:21:50,  2.10it/s, avg=3.298, gn=0.48, lr=1.01e-03][1,200,128 pairs] val loss  2.739 | val ppl    15.47
+Epoch 00:  33%|███▎      | 4885/14993 [08:01<1:32:06,  1.83it/s, avg=3.248, gn=0.29, lr=9.89e-04][1,250,048 pairs] val loss  2.707 | val ppl    14.99
+Epoch 00:  34%|███▍      | 5083/14993 [08:15<1:00:26,  2.73it/s, avg=3.259, gn=0.24, lr=9.72e-04][1,300,224 pairs] val loss  2.685 | val ppl    14.66
+Epoch 00:  35%|███▌      | 5276/14993 [08:31<1:22:42,  1.96it/s, avg=3.264, gn=0.26, lr=9.55e-04][1,350,144 pairs] val loss  2.642 | val ppl    14.04
+Epoch 00:  36%|███▋      | 5471/14993 [08:46<1:20:05,  1.98it/s, avg=3.244, gn=0.32, lr=9.36e-04][1,400,064 pairs] val loss  2.634 | val ppl    13.93
+Epoch 00:  38%|███▊      | 5668/14993 [09:01<1:00:36,  2.56it/s, avg=3.143, gn=0.32, lr=9.17e-04][1,450,240 pairs] val loss  2.625 | val ppl    13.81
+Epoch 00:  39%|███▉      | 5863/14993 [09:17<57:28,  2.65it/s, avg=3.211, gn=0.23, lr=8.98e-04]  [1,500,160 pairs] val loss  2.608 | val ppl    13.57
+Epoch 00:  40%|████      | 6060/14993 [09:32<50:36,  2.94it/s, avg=3.168, gn=0.30, lr=8.78e-04]  [1,550,080 pairs] val loss  2.578 | val ppl    13.17
+Epoch 00:  42%|████▏     | 6253/14993 [09:46<57:42,  2.52it/s, avg=3.169, gn=0.23, lr=8.57e-04]  [1,600,000 pairs] val loss  2.577 | val ppl    13.16
+Epoch 00:  43%|████▎     | 6449/14993 [10:02<52:42,  2.70it/s, avg=3.152, gn=0.33, lr=8.36e-04][1,650,176 pairs] val loss  2.550 | val ppl    12.81
+Epoch 00:  44%|████▍     | 6645/14993 [10:17<50:21,  2.76it/s, avg=3.100, gn=0.28, lr=8.15e-04]  [1,700,096 pairs] val loss  2.547 | val ppl    12.76
+Epoch 00:  46%|████▌     | 6838/14993 [10:32<1:09:05,  1.97it/s, avg=3.157, gn=0.25, lr=7.93e-04][1,750,016 pairs] val loss  2.543 | val ppl    12.72
+Epoch 00:  47%|████▋     | 7034/14993 [10:47<1:13:03,  1.82it/s, avg=3.131, gn=0.20, lr=7.71e-04][1,800,192 pairs] val loss  2.503 | val ppl    12.22
+Epoch 00:  48%|████▊     | 7227/14993 [11:03<1:31:28,  1.41it/s, avg=3.106, gn=0.32, lr=7.48e-04][1,850,112 pairs] val loss  2.496 | val ppl    12.13
+Epoch 00:  50%|████▉     | 7426/14993 [11:19<45:22,  2.78it/s, avg=3.119, gn=0.30, lr=7.25e-04]  [1,900,032 pairs] val loss  2.475 | val ppl    11.88
+Epoch 00:  51%|█████     | 7621/14993 [11:35<50:33,  2.43it/s, avg=3.103, gn=0.24, lr=7.02e-04]  [1,950,208 pairs] val loss  2.461 | val ppl    11.72
+Epoch 00:  52%|█████▏    | 7815/14993 [11:50<59:57,  2.00it/s, avg=3.073, gn=0.26, lr=6.79e-04][2,000,128 pairs] val loss  2.459 | val ppl    11.70
+Epoch 00:  53%|█████▎    | 8011/14993 [12:05<41:47,  2.78it/s, avg=3.005, gn=0.32, lr=6.56e-04][2,050,048 pairs] val loss  2.453 | val ppl    11.62
+Epoch 00:  55%|█████▍    | 8206/14993 [12:19<58:01,  1.95it/s, avg=3.036, gn=0.31, lr=6.32e-04][2,100,224 pairs] val loss  2.433 | val ppl    11.40
+Epoch 00:  56%|█████▌    | 8403/14993 [12:34<44:42,  2.46it/s, avg=3.056, gn=0.28, lr=6.09e-04]  [2,150,144 pairs] val loss  2.414 | val ppl    11.17
+Epoch 00:  57%|█████▋    | 8596/14993 [12:48<54:00,  1.97it/s, avg=3.025, gn=0.28, lr=5.86e-04][2,200,064 pairs] val loss  2.422 | val ppl    11.27
+Epoch 00:  59%|█████▊    | 8791/14993 [13:02<56:19,  1.84it/s, avg=3.048, gn=0.28, lr=5.62e-04][2,250,240 pairs] val loss  2.399 | val ppl    11.01
+Epoch 00:  60%|█████▉    | 8986/14993 [13:17<50:25,  1.99it/s, avg=2.977, gn=0.23, lr=5.39e-04][2,300,160 pairs] val loss  2.392 | val ppl    10.93
+Epoch 00:  61%|██████    | 9183/14993 [13:32<38:56,  2.49it/s, avg=2.990, gn=0.23, lr=5.16e-04][2,350,080 pairs] val loss  2.367 | val ppl    10.66
+Epoch 00:  63%|██████▎   | 9377/14993 [13:47<46:41,  2.00it/s, avg=2.992, gn=0.20, lr=4.94e-04][2,400,000 pairs] val loss  2.355 | val ppl    10.54
+Epoch 00:  64%|██████▍   | 9575/14993 [14:02<38:18,  2.36it/s, avg=2.994, gn=0.26, lr=4.71e-04][2,450,176 pairs] val loss  2.347 | val ppl    10.46
+Epoch 00:  65%|██████▌   | 9768/14993 [14:16<35:54,  2.42it/s, avg=2.964, gn=0.36, lr=4.49e-04][2,500,096 pairs] val loss  2.341 | val ppl    10.39
+Epoch 00:  66%|██████▋   | 9964/14993 [14:39<33:32,  2.50it/s, avg=2.972, gn=0.25, lr=4.28e-04][2,550,016 pairs] val loss  2.329 | val ppl    10.26
+Epoch 00:  68%|██████▊   | 10158/14993 [14:54<40:47,  1.98it/s, avg=2.922, gn=0.32, lr=4.06e-04][2,600,192 pairs] val loss  2.323 | val ppl    10.21
+Epoch 00:  69%|██████▉   | 10353/14993 [15:10<47:29,  1.63it/s, avg=2.952, gn=0.29, lr=3.85e-04][2,650,112 pairs] val loss  2.307 | val ppl    10.05
+Epoch 00:  70%|███████   | 10549/14993 [15:26<30:12,  2.45it/s, avg=2.913, gn=0.30, lr=3.65e-04][2,700,032 pairs] val loss  2.306 | val ppl    10.03
+Epoch 00:  72%|███████▏  | 10747/14993 [15:41<30:14,  2.34it/s, avg=2.929, gn=0.33, lr=3.45e-04][2,750,208 pairs] val loss  2.291 | val ppl     9.88
+Epoch 00:  73%|███████▎  | 10941/14993 [15:56<24:34,  2.75it/s, avg=2.940, gn=0.25, lr=3.26e-04][2,800,128 pairs] val loss  2.286 | val ppl     9.83
+Epoch 00:  74%|███████▍  | 11135/14993 [16:11<33:07,  1.94it/s, avg=2.900, gn=0.24, lr=3.08e-04][2,850,072 pairs] val loss  2.272 | val ppl     9.70
+Epoch 00:  76%|███████▌  | 11331/14993 [16:27<30:48,  1.98it/s, avg=2.913, gn=0.32, lr=2.89e-04][2,900,248 pairs] val loss  2.267 | val ppl     9.65
+Epoch 00:  77%|███████▋  | 11529/14993 [16:42<22:53,  2.52it/s, avg=2.923, gn=0.34, lr=2.72e-04][2,950,168 pairs] val loss  2.256 | val ppl     9.54
+Epoch 00:  78%|███████▊  | 11723/14993 [16:57<20:16,  2.69it/s, avg=2.961, gn=0.29, lr=2.56e-04][3,000,088 pairs] val loss  2.250 | val ppl     9.49
+Epoch 00:  79%|███████▉  | 11917/14993 [17:12<23:06,  2.22it/s, avg=2.879, gn=0.34, lr=2.40e-04][3,050,008 pairs] val loss  2.245 | val ppl     9.44
+Epoch 00:  81%|████████  | 12113/14993 [17:28<24:17,  1.98it/s, avg=2.904, gn=0.30, lr=2.25e-04][3,100,184 pairs] val loss  2.240 | val ppl     9.39
+Epoch 00:  82%|████████▏ | 12309/14993 [17:43<21:55,  2.04it/s, avg=2.871, gn=0.25, lr=2.11e-04][3,150,104 pairs] val loss  2.228 | val ppl     9.28
+Epoch 00:  83%|████████▎ | 12504/14993 [17:58<16:04,  2.58it/s, avg=2.908, gn=0.32, lr=1.98e-04][3,200,024 pairs] val loss  2.223 | val ppl     9.24
+Epoch 00:  85%|████████▍ | 12699/14993 [18:13<16:28,  2.32it/s, avg=2.888, gn=0.22, lr=1.86e-04][3,250,200 pairs] val loss  2.220 | val ppl     9.21
+Epoch 00:  86%|████████▌ | 12895/14993 [18:28<13:46,  2.54it/s, avg=2.872, gn=0.28, lr=1.74e-04][3,300,120 pairs] val loss  2.213 | val ppl     9.15
+Epoch 00:  87%|████████▋ | 13085/14993 [18:43<01:36, 19.84it/s, avg=2.854, gn=0.27, lr=1.64e-04][3,350,040 pairs] val loss  2.209 | val ppl     9.11
+Epoch 00:  89%|████████▊ | 13287/14993 [19:00<10:28,  2.71it/s, avg=2.847, gn=0.24, lr=1.54e-04][3,400,216 pairs] val loss  2.202 | val ppl     9.04
+Epoch 00:  90%|████████▉ | 13481/14993 [19:14<09:06,  2.77it/s, avg=2.871, gn=0.33, lr=1.46e-04][3,450,136 pairs] val loss  2.198 | val ppl     9.01
+Epoch 00:  91%|█████████ | 13676/14993 [19:29<08:27,  2.60it/s, avg=2.851, gn=0.39, lr=1.38e-04][3,500,056 pairs] val loss  2.192 | val ppl     8.95
+Epoch 00:  93%|█████████▎| 13872/14993 [19:44<07:41,  2.43it/s, avg=2.866, gn=0.39, lr=1.31e-04][3,550,232 pairs] val loss  2.188 | val ppl     8.92
+Epoch 00:  94%|█████████▍| 14067/14993 [19:59<06:07,  2.52it/s, avg=2.858, gn=0.30, lr=1.26e-04][3,600,152 pairs] val loss  2.185 | val ppl     8.89
+Epoch 00:  95%|█████████▌| 14263/14993 [20:15<04:27,  2.73it/s, avg=2.833, gn=0.25, lr=1.21e-04][3,650,072 pairs] val loss  2.185 | val ppl     8.89
+Epoch 00:  96%|█████████▋| 14458/14993 [20:29<03:43,  2.40it/s, avg=2.896, gn=0.28, lr=1.18e-04][3,700,248 pairs] val loss  2.178 | val ppl     8.83
+Epoch 00:  98%|█████████▊| 14653/14993 [20:44<02:36,  2.17it/s, avg=2.803, gn=0.25, lr=1.16e-04][3,750,168 pairs] val loss  2.178 | val ppl     8.83
+Epoch 00:  99%|█████████▉| 14848/14993 [20:58<00:53,  2.73it/s, avg=2.815, gn=0.29, lr=1.14e-04][3,800,088 pairs] val loss  2.175 | val ppl     8.80
+Epoch 00: 100%|██████████| 14993/14993 [21:06<00:00, 11.84it/s, avg=2.838, gn=0.27, lr=1.14e-04]
+Epoch 00 | train  2.838 | val loss  2.173| val ppl     8.79
+
+SOURCE:    and pass it a string containing the SQL statement.
+TARGET:    retourne un pointeur de commande valide.
+PREDICTED: et la passer une chaîne contenant la requête SQL.
+
+SOURCE:    In some dialog boxes, options are divided into two or more tabs.
+TARGET:    Dans certaines boîtes de dialogue, les options sont réparties dans deux ou plusieurs onglets.
+PREDICTED: Dans certaines boîtes de dialogue, les options sont divisées en deux ou plusieurs onglets.
+
+SOURCE:    Note: Don't forget to update any headers accordingly.
+TARGET:    Note: N'oubliez pas de mettre à jour tous les en-têtes en fonction.
+PREDICTED: Note: N'oubliez pas de mettre à jour les en-têtes en conséquence.
+
+VALIDATION (greedy) over 3072 sentences | BLEU 0.298
+GPU after cleanup: 0.02 GB
